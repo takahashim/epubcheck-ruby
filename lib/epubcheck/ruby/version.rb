@@ -1,5 +1,5 @@
 module Epubcheck
   module Ruby
-    VERSION = "0.1.0"
+    VERSION = "4.0.2"
   end
 end
