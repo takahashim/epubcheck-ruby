@@ -1,12 +1,20 @@
 # Epubcheck::Ruby
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/epubcheck/ruby`. To experiment with that code, run `bin/console` for an interactive prompt.
+This rubygem provide simple wrapper command of epubcheck, epub cheker library in Java by IDPF (https://github.com/IDPF/epubcheck)
 
-TODO: Delete this and the text above, and describe your gem
+## Usage
+
+    $ epubcheck some-epub-file.epub
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Before installation of this command, you need to install Java and Ruby.
+
+Install it yourself with `gem` command as:
+
+    $ gem install epubcheck-ruby
+
+Or add this line to your application's Gemfile:
 
 ```ruby
 gem 'epubcheck-ruby'
@@ -16,13 +24,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install epubcheck-ruby
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
@@ -39,3 +40,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/takaha
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+Original epubcheck library is available under the terms of the [New BSD License](https://opensource.org/licenses/BSD-3-Clause)
