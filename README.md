@@ -33,6 +33,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## History
 
+### v4.1.0.0
+
+* support EPUBCheck 4.1.0
+* update document to use `EPUBCheck` instead of `epubcheck` (class name in Ruby is not changed)
+
 ### v4.0.2.1
 
 * exit with original epubcheck command status (thx @hanachin)
