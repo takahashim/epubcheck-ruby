@@ -1,6 +1,6 @@
 # Epubcheck::Ruby
 
-This rubygem provide simple wrapper command of epubcheck, epub cheker library in Java by IDPF (https://github.com/IDPF/epubcheck)
+This rubygem provide simple wrapper command of EPUBCheck, epub cheker library in Java by IDPF (https://github.com/IDPF/epubcheck)
 
 ## Usage
 
