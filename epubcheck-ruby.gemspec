@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["takahashim"]
   spec.email         = ["takahashimm@gmail.com"]
 
-  spec.summary       = %q{wrapper command of epubcheck (IDPF)}
-  spec.description   = %q{wrapper command of epubcheck (IDPF)}
+  spec.summary       = %q{wrapper command of epubcheck (W3C)}
+  spec.description   = %q{wrapper command of epubcheck (W3C)}
   spec.homepage      = "https://github.com/takahashim/epubcheck-ruby"
   spec.license       = "MIT"
 
