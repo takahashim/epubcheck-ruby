@@ -1,5 +1,8 @@
 # Epubcheck::Ruby
 
+[![Gem Version](https://badge.fury.io/rb/epubcheck-ruby.svg)](https://badge.fury.io/rb/epubcheck-ruby)
+[![GitHub Actions Status](https://github.com/takahashim/epubcheck-ruby/workflows/Ruby/badge.svg)](https://github.com/takahashim/epubcheck-ruby/actions?query=workflow%3ARuby)
+
 This rubygem provide simple wrapper command of EPUBCheck, epub cheker library in Java by IDPF (https://github.com/w3c/epubcheck)
 
 ## Usage
