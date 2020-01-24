@@ -22,4 +22,4 @@ jobs:
         gem install bundler
         bundle install --jobs 4 --retry 3
     - name: Test
-      run: bundle exec rake
+      run: bundle exec ruby $(bundle exec ruby -e "print Gem.bin_path 'rake', 'rake'")
