@@ -17,9 +17,9 @@ jobs:
       uses: eregon/use-ruby-action@master
       with:
         ruby-version: ${{ matrix.ruby }}
-    - name: Build and Test
-      shell: bash
+    - name: Build
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-        bundle exec rake
+    - name: Test
+      run: bundle exec rake
