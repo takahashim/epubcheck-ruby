@@ -1,8 +1,8 @@
 require "test_helper"
 
 class TestUnitColor < Test::Unit::TestCase
-  test "Exit with status 1 when missing argument" do
-    system('bundle', 'exec', 'epubcheck')
+  test "Exit with status 1 when given nonexistent path" do
+    system('bundle', 'exec', 'epubcheck', '/nonexistent')
     assert_equal 1, $?.exitstatus
   end
 
