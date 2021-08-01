@@ -9,7 +9,12 @@ module Epubcheck
       end
 
       def execute(args)
-        system("java", "-jar", JAR_FILE, *args)
+        ret = system("java", "-jar", JAR_FILE, *args)
+        if ret.nil?
+          $stderr.write "Failed to execute epubcheck.\n"
+          exit 1
+        end
+        ret
       end
     end
   end
