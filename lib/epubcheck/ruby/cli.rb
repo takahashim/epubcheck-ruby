@@ -3,7 +3,7 @@ require 'epubcheck/ruby'
 module Epubcheck
   module Ruby
     class CLI
-      JAR_FILE = File.join(Epubcheck::Ruby::JAR_DIR, 'epubcheck-5.2.0/epubcheck.jar')
+      JAR_FILE = File.join(Epubcheck::Ruby::JAR_DIR, 'epubcheck-5.2.1/epubcheck.jar')
 
       def initialize
       end
